@@ -24,6 +24,10 @@ ambient_defaults = {
     'Date': '12 Jun',
     }
 
+temps = [i for i in range(5, 41)]
+windSpeeds = [i for i in range(0, 221, 5)]
+months = [i for i in range(0, 13)]
+times = [i for i in range(0, 25)]
 
 df = pd.read_csv('conductor_library.csv')
 ratings = []
